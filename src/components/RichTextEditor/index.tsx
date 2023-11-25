@@ -141,7 +141,7 @@ const RichTextEditor = (props: Props) => {
                     handleKeyCommand={handleKeyCommand}
                     handleBeforeInput={handleBeforeInput}
                     customStyleMap={CUSTOM_STYLE_MAP}
-                    placeholder="Write someting amazing..."
+                    placeholder="Write something amazing..."
                     handleReturn={handleReturn}
                     blockStyleFn={customBlockStyleFn}
                 />
