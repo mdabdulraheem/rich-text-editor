@@ -1,0 +1,30 @@
+.DraftEditor-root {
+    background-color: #fff;
+    color: #000;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    height: 25rem;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    .public-DraftEditorPlaceholder-root {
+        font-style: italic;
+    }
+
+    .DraftEditor-editorContainer,
+    .public-DraftEditor-content {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    div[data-contents] {
+        padding-bottom: 1rem;
+    }
+
+    .public-DraftStyleDefault-pre {
+        padding: 1rem 2rem;
+        @apply bg-gray-200;
+        white-space: nowrap;
+    }
+}
