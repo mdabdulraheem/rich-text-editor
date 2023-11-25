@@ -7,3 +7,10 @@
     margin: 0 auto;
     padding: 1rem;
 }
+
+body {
+    height: 100vh;
+    background: #141e30;
+    background-image: radial-gradient(#581c87 0px, transparent 2px);
+    background-size: 5px 5px;
+}
