@@ -62,7 +62,7 @@ export const customBlockStyleFn = (contentBlock: ContentBlock) => {
     if (type === 'header-one') {
         return 'text-4xl font-bold';
     } else if (type === 'code-block') {
-        return 'block whitespace-nowrap';
+        return 'block whitespace-pre';
     }
     return '';
 };

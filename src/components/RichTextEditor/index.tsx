@@ -129,8 +129,8 @@ const RichTextEditor = (props: Props) => {
                     )}
                 </div>
                 {showSaveButton && (
-                    <div className="text-right">
-                        <Button onClick={() => onSave(editorState)}>Save Note</Button>
+                    <div className="text-left">
+                        <Button onClick={() => onSave(editorState)}>Save</Button>
                     </div>
                 )}
             </div>
